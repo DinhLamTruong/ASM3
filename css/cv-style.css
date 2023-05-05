@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 30px;
+}
+
+.row {
+    background-color: blue;
+}
+
+.Goals,
+.Team,
+.timeline,
+.scope,
+.primary {
+    background-color: grey;
+    margin: 14px;
+}
+
+.Goals,
+.Team,
+.scope,
+.primary {
+    margin-right: 0;
+}
+
+.primary1,
+.primary2 {
+    display: flex;
+}
+
+.Goals h2,
+.Team h2,
+.timeline h2,
+.scope h2,
+.primary h2 {
+    color: blue;
+    border-bottom: 1px solid black;
+    padding: 6px;
+    margin: 0 10px;
+}
+
+.goal-icon,
+.goal-content,
+.team-icon,
+.team-content,
+.primary-icon,
+.primary-content {
+    display: inline-block;
+}
+
+.scope .in,
+.scope .out,
+.goal1,
+.goal2,
+.goal3,
+.member1,
+.member2,
+.member3,
+.primary1,
+.primary2 {
+    margin: 10px;
+}
+
+.scope .in {
+    margin-left: 30px;
+}
+
+.goal-icon,
+.team-icon,
+.primary-icon {
+    color: black;
+    margin: 0 20px;
+}
+
+.Team .member1,
+.goal1,
+.goal2,
+.goal3 {
+    display: flex;
+    align-items: center;
+}
+
+.goal1,
+.goal2,
+.goal3 {
+    border-bottom: 1px dotted white;
+    padding-bottom: 4px;
+}
+
+.goal-content b,
+.team-content b,
+.primary-content b,
+.scope .in b,
+.scope .out b {
+    color: black;
+}
+
+.goal-content {
+    margin-left: 20px;
+}
+
+.Goals,
+.Team,
+.scope,
+.primary {
+    min-height: 300px;
+}
+
+.scope-content {
+    display: flex;
+}
+
+.scope .out,
+.scope .in {
+    width: 50%;
+}
+
+.timeline {
+    min-height: 614px;
+}
+
+.timeline .item1,
+.timeline .item2,
+.timeline .item3 {
+    display: flex;
+    /* min-height: 65px; */
+}
+
+.timeline-content .number span {
+    display: flex;
+    background-color: blue;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 14px 20px;
+}
+
+.project-content {
+    display: inline-block;
+    border-bottom: 1px dotted white;
+    padding-top: 10px;
+    margin-right: 10px;
+}

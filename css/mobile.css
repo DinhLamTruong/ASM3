@@ -1,0 +1,311 @@
+@media only screen and (max-width: 739px) {
+    .avatar {
+        display: none;
+    }
+
+    #banner {
+        margin-bottom: 8px;
+    }
+
+    #banner h1 {
+        width: 100%;
+        top: 26%;
+    }
+
+    #banner img {
+        height: 200px;
+    }
+
+    #banner span {
+        top: 40%;
+    }
+
+    /* nav-bar */
+    #nav-bar {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    #nav-bar .container {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 20px;
+        /* padding: 10px 20px; */
+        padding: 0;
+        flex-direction: column;
+        width: 100px;
+    }
+
+    #nav-bar .container .item1,
+    #nav-bar .container .item2,
+    #nav-bar .container .item3,
+    #nav-bar .container .item4 {
+        display: flex;
+        height: 18px;
+        align-items: center;
+        margin-bottom: 2px;
+        padding: 0 4px;
+        border-radius: 4px;
+        flex-direction: row-reverse;
+    }
+
+    /*end nav-bar */
+
+    /* thông tin about */
+    #about .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #about .container #target p {
+        margin-left: 36px;
+        margin-bottom: 20px;
+    }
+
+    #about .container #target h1 {
+        margin-left: 36px;
+    }
+
+    /*end thông tin about */
+
+    /* thông tin nghề nghiệp*/
+    #personal-info h1 {
+        margin-left: 36px;
+    }
+
+    #job-info .container .hobby__content .item1>div,
+    #job-info .container .hobby__content .item2>div,
+    #job-info .container .hobby__content .item3>div,
+    #job-info .container .hobby__content .item4>div {
+        font-size: 12px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+
+    #job-info .container {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+        width: 100%;
+    }
+
+    /*end thông tin nghề nghiệp*/
+
+    /* chứng chỉ */
+    .certificate-img {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 8px;
+    }
+
+    .certificate-text h5 {
+        font-size: 12px;
+    }
+
+    .certificate__content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .certificate-detail.boder {
+        border: none;
+        padding-left: 0;
+    }
+
+    .certificate-detail {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #d6c08d;
+        margin-bottom: 4px;
+    }
+
+    .certificate-detail.boder {
+        border-bottom: 1px solid #d6c08d;
+        margin: 0px 0 20px 0;
+
+    }
+
+    .certificate-text p {
+        margin: 0;
+    }
+
+    #certificate>.container {
+        width: 100%;
+    }
+
+    .boder-bottom {
+        background-color: #d6c08d;
+        display: none;
+        height: 1px;
+        width: 100%;
+        border-radius: 2px;
+        margin-bottom: 4px;
+    }
+
+    /*end chứng chỉ */
+
+    /* dự án */
+    .project-info {
+        display: block;
+    }
+
+    .project-info .year {
+        margin-left: 20px;
+        margin-bottom: 10px;
+
+    }
+
+    .project-icon {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .project-info i {
+        margin-left: 30px;
+    }
+
+    .project-info .item1 {
+        margin-left: 18px;
+        margin-bottom: 6px;
+        width: 100%;
+    }
+
+    .project-info .item2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 26px;
+    }
+
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 26px;
+    }
+
+    #project>.container {
+        width: 100%;
+    }
+
+    /*end dự án */
+
+    /* footer */
+    #footer>.container {
+        width: 100%;
+    }
+
+    #footer .container ul {
+        padding-left: 0;
+    }
+
+    #footer .container ul i {
+        font-size: 20px;
+        margin-left: 6px;
+    }
+
+    /*end footer */
+
+
+
+
+
+
+
+
+    /* ********** Digital-CV ****************** */
+
+    /* css chung */
+    .card-01 .scope,
+    .card-02 .primary {
+        margin-bottom: 0;
+    }
+
+    .Goals,
+    .Team,
+    .scope,
+    .primary {
+        min-height: 340px;
+        border-right: 14px solid blue;
+    }
+
+    .Team .member1,
+    .Team .member,
+    .primary1,
+    .primary2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    /* end css chung */
+    /* goal */
+    .goal-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Goals .goal1,
+    .Goals .goal2,
+    .Goals .goal3 {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    /* end goal */
+    /* scope */
+    .scope .out {
+        display: block;
+        margin-left: 30px;
+    }
+
+    .scope-content {
+        display: block;
+    }
+
+    /* end scope */
+
+    /* team */
+    .Team .member1,
+    .Team .member2 {
+        align-items: stretch;
+    }
+
+    .Team .member1 .team-icon,
+    .Team .member2 .team-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*end team */
+
+    /* timeline */
+
+    .timeline .item1,
+    .timeline .item2,
+    .timeline .item3 {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .timeline-content .number span {
+        margin: 0;
+    }
+
+    /* timeline */
+
+}
